@@ -4,7 +4,7 @@ module.exports = {
 	collectCoverage: true,
 	coverageDirectory: "coverage",
 	coverageReporters: ["text", "lcov"],
-    coverageProvider: "v8",
+	coverageProvider: "v8",
 	collectCoverageFrom: ["src/**/*.{ts,tsx}", "!src/**/*.d.ts"],
 	coverageThreshold: {
 		global: {
